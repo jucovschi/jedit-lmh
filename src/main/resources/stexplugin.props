@@ -1,0 +1,56 @@
+# Lines starting with '#' are ignored.
+# name=value
+# another.name=another value
+# long.property=Long property value, split over \
+#     several lines
+# escape.property=Newlines and tabs can be inserted \
+#     using the \t and \n escapes
+# backslash.property=A backslash can be inserted by writing \\.
+
+# general plugin information
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.name=STeXPlugin
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.title=Semantic TeX
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.author=Constantin Jucovschi
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.description=Integrates with Semantic Ally
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.longdescription=This plugin provides support for editing MMT documents, in particular LF files.
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.docs=doc.html
+
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.activate=startup
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.usePluginHome=true
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.version=1
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.depend.0=jedit 04.05.00.00
+
+# menu items for jEdit views
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.menu.label=STeX
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.menu=stex-compile nnexus-suggest stex-compile-show-results lmh-add-dockable
+
+# labels for actions defined in actions.xml
+stex-compile.label=Compile STeX
+nnexus-suggest.label=Show NNexus Suggestions
+stex-compile-show-results.label=Show last compilation results
+lmh-add-dockable.label=Add LMH Panel
+
+# menu items for file system browsers
+#plugin.info.kwarc.sally.jedit.stex.STeXPlugin.browser-menu=mmt-browser-compile
+
+# options pane
+plugin.info.kwarc.sally.jedit.stex.STeXPlugin.option-pane=info.kwarc.sally.jedit.stex.STeXPlugin
+options.info.kwarc.sally.jedit.stex.STeXPlugin.label=MMT
+options.info.kwarc.sally.jedit.stex.STeXPlugin.code=new info.kwarc.sally.jedit.stex.LMHOptions();
+
+#LMH Dockable
+lmh-dockable.title=LMH
+
+# toolbar buttons
+# mmt.read.icon=read.png
+
+# sidekick
+#sidekick.parser.mmt.label=MMT parser
+#mode.mmt.sidekick.parser=mmt
+#mode.lf.sidekick.parser=mmt
+#sidekick.parser.stex.label=sTeX parser
+#mode.tex.sidekick.parser=stex
+
+# hyperlink
+#mode.mmt.hyperlink.source=mmt
+#mode.lf.hyperlink.source=mmt

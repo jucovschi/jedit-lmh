@@ -1,0 +1,27 @@
+<!DOCTYPE ACTIONS SYSTEM "actions.dtd">
+
+<ACTIONS>
+	<ACTION NAME="stex-compile">
+		<CODE>
+			jEdit.getPlugin("info.kwarc.sally.jedit.stex.STeXPlugin", true).compile(view);
+		</CODE>
+	</ACTION>
+
+	<ACTION NAME="lmh-add-dockable">
+		<CODE>
+			wm.addDockableWindow("lmh-dockable");
+		</CODE>
+	</ACTION>
+	
+	<ACTION NAME="nnexus-suggest">
+		<CODE>
+			jEdit.getPlugin("info.kwarc.sally.jedit.stex.STeXPlugin", true).nnexus_show_suggestions(view);
+		</CODE>
+	</ACTION>
+	
+		<ACTION NAME="stex-compile-show-results">
+		<CODE>
+			jEdit.getPlugin("info.kwarc.sally.jedit.stex.STeXPlugin", true).showLastCompileResult();
+		</CODE>
+	</ACTION>
+</ACTIONS>

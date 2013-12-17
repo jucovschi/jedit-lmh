@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE DOCKABLES SYSTEM "dockables.dtd">
+<DOCKABLES>
+	<DOCKABLE NAME="lmh-dockable">
+		new info.kwarc.sally.jedit.lmh.LMHDockable(view, position);
+	</DOCKABLE>
+</DOCKABLES>
